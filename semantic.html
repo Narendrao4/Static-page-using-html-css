@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Semantic Elements</title>
+	<style>
+		*
+		{
+			margin:0px;
+			padding:0px;
+		}
+		header,footer
+		{
+			background-color:black;
+			color:orange;
+			padding: 20px;
+		}
+		header>h1 
+		{
+            text-align: center;
+		}
+		nav
+		{
+			background-color:grey;
+			text-align:center;
+			padding:7px;
+		}
+		nav>a 
+		{
+			color:white;
+			text-decoration:none;
+			margin:20px;
+			border-radius:5px;
+			padding:3px 7px;
+		}
+		.active
+		{
+			box-shadow:0 0 10px black;
+		}
+		nav>a:hover
+		{
+			background-color:orange;
+			color:black;
+		}
+		aside
+		{
+			background-color:black;
+			width:150px;
+			height:390px;
+			text-align:center;
+			float:left;
+		}
+		aside>a 
+		{
+			color:white;
+			display:block;
+			position:relative;
+			top:30px;
+			margin-bottom:70px;
+			text-decoration:none;
+		}
+		aside>a:hover
+		{
+			text-decoration:underline;
+		}
+		section	
+		{
+			margin-left:150px;
+			padding:20px;
+			background-color:rgb(229,229,229);
+			height:350px;
+		}
+		footer
+		{
+			text-align:center;
+		}
+		footer a 
+		{
+			color:white;
+		}
+		iframe
+		{
+			border:2px solid black;
+			width:400px;
+			height:250px;
+		}
+	</style>
+</head>
+<body>
+	<!-- Main Header -->
+	<header>
+		<h1>Jspiders</h1>
+	</header>
+	<!-- Navbar -->
+	<nav>
+		<a href="#" class="active">Courses</a>
+		<a href="#">Placements</a>
+		<a href="#">Gallery</a>
+		<a href="#">Contact Us</a>
+	</nav>
+	<!-- Sidebar -->
+	<aside>
+		<a href="#">Java</a>
+		<a href="#">Python</a>
+		<a href="#">Mern</a>
+		<a href="#">Devops</a>
+	</aside>
+	<!-- Main Section -->
+	<section>
+		<h1>Main Cousre Information</h1>
+		<iframe src="https://www.youtube.com/embed/eIrMbAQSU34?si=Wt_gaFaU2d-NTh-d"></iframe>
+		<iframe src="https://www.youtube.com/embed/eIrMbAQSU34?si=Wt_gaFaU2d-NTh-d"></iframe>
+	</section>
+	<!-- Footer -->
+	<footer>
+		<h3>CopyRight:2024&copy;</h3>
+		<small>Developed & Maintained By
+			<a href="http://www.jspiders.com">Jspiders</a></small>
+	</footer>
+</body>
+</html>
