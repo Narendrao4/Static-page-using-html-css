@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../fontawsome/fa/css/all.css">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+           
+           
+        }
+        body{
+            background-color: red;
+            overflow-x: hidden;
+        }
+        .card-container{
+            display: flex;
+            justify-content:center;
+            flex-wrap: wrap;
+            margin-top: 100px;
+            
+        }
+        .card{
+            width: 325px;
+           background-color:red;
+           border-radius: 8px;
+           box-shadow: 0px 2px 4px 8px;
+            margin: 20px;
+            overflow: hidden; /* Ensure contents do not overflow */
+        }
+        .card:hover{
+            box-shadow: 10px 10px 5px black;
+        }
+        img{
+            background-color:black;
+            color: white;
+            width: 100%;
+            height: auto;
+        }
+        button{
+            background-color: black;
+            color: white;
+            margin-left: 40px;
+            padding: 8px 16px;
+            border-radius: 10px;
+        }
+        h1{
+            font-size: 28px;
+            margin-left: 40px;
+        }
+        p{
+            line-height: 1.3;
+            font-size: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 5px;
+            color: aliceblue;
+            display: none;
+            transition: opacity 0.3s ease-in-out; /* Smooth transition for visibility */
+        }
+        header{
+            background-color: black;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        #display{
+            color: red;
+            font-family:'Times New Roman', Times, serif;
+            text-align: center;
+            right: 15px;
+            position: relative;
+    
+        }
+            
+       span>i{
+           color:red;
+           padding-left: 20px;
+           
+        }
+        #mains{
+           position: relative;
+           left: 98%;
+           bottom: 40px;
+            color: aliceblue;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 100%; /* Ensure footer spans full width */
+            position: relative;
+            bottom: 0;
+            margin-top: 20px; /* Adjust margin as needed */
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+       /* styles.css *
+
+
+/* Additional styling for the header and nav elements if needed */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#display>h1 {
+            background-color: black;  
+            color:goldenrod; /* Make text transparent initially */
+            background-clip: text; /* Clip the background to the text */ 
+           /*  background-image: linear-gradient(65deg, red, gold, black); */
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+        }
+        #display h1 img {
+    margin-left: 10px;  /* Add some margin to separate the text from the image */
+    border-radius:400px;   /* Make the image circular */
+    width: 50px;  /* Set the desired width for the logo */
+    height: 90px;  /* Ensure the height matches the width for a perfect circle */
+}
+
+
+
+
+        
+    </style>
+</head>
+<body>
+ <div id="backgr">
+
+    <header>
+       <nav>
+        <span>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-house"></i>
+       </span>
+        <div id="display">
+          <h1> <img src="../../images/rcb logo2.jpg" alt="not found">
+            ROYAL CHALLEGERS BANGULURU</h1>
+        </div>
+        <div id="mains">
+            <i class="fa-solid fa-right-from-bracket"></i>
+        </div>
+       </nav>
+    </header>
+    <div class="card-container">
+    <div class="card">
+        <div class="card-header">
+            <img src="../../images/viratrcb.web.webp" alt="image not found">
+        </div>
+        <div class="card-body">
+           <div>
+            <button>read here</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sint numquam iure, laborum quis recusandae quo modi deleniti inventore harum quam!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, asperiores maxime reprehenderit necessitatibus culpa molestiae excepturi perspiciatis repellendus, 
+            
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <img src="../../images/max.jpg" alt="image not found">
+        </div>
+        <div class="card-body">
+           <div>
+            <button>read here</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sint numquam iure, laborum quis recusandae quo modi deleniti inventore harum quam!
+                Lorem ipsum dolor, sit amet consectetur adipisicing.
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <img src="../../images/faf.jpg" alt="image not found">
+        </div>
+        <div class="card-body">
+           <div>
+            <button>read here</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sint numquam iure, laborum quis recusandae quo modi deleniti inventore nani created!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <img src="../../images/faf.jpg" alt="image not found">
+        </div>
+        <div class="card-body">
+           <div>
+            <button>read here</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sint numquam iure, laborum quis recusandae quo modi deleniti inventore nani created!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <img src="../../images/faf.jpg" alt="image not found">
+        </div>
+        <div class="card-body">
+           <div>
+            <button>read here</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sint numquam iure, laborum quis recusandae quo modi deleniti inventore nani created!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <img src="../../images/faf.jpg" alt="image not found">
+        </div>
+        <div class="card-body">
+           <div>
+            <button>read here</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sint numquam iure, laborum quis recusandae quo modi deleniti inventore nani created!</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <img src="../../images/faf.jpg" alt="image not found">
+        </div>
+        <div class="card-body">
+           <div>
+            <button>read here</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sint numquam iure, laborum quis recusandae quo modi deleniti inventore nani created!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <img src="../../images/faf.jpg" alt="image not found">
+        </div>
+        <div class="card-body">
+           <div>
+            <button>read here</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sint numquam iure, laborum quis recusandae quo modi deleniti inventore nani created!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <img src="../../images/faf.jpg" alt="image not found">
+        </div>
+        <div class="card-body">
+           <div>
+            <button>read here</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sint numquam iure, laborum quis recusandae quo modi deleniti inventore nani created!</p>
+            </div>
+        </div>
+    </div>
+
+
+
+ </div>
+
+<footer>
+    <h3>CopyRight:2024&copy;</h3>
+    <small>Developed & Maintained By <a href="https://www.instagram.com/they_callme_natural/">sandra Narendra</a></small>
+</footer>
+<script src="RCB.js"></script>
+
+</div>
+</body>
+</html>
